@@ -31,7 +31,7 @@ yarn add @arnau/gatsby-transformer-toml
 
 ```javascript
 // In your gatsby-config.js
-plugins: ['gatsby-transformer-toml']
+plugins: ['@arnau/gatsby-transformer-toml']
 ```
 
 ## Example
@@ -161,7 +161,7 @@ example:
 
 plugins: [
   {
-    resolve: 'gatsby-transformer-toml',
+    resolve: '@arnau/gatsby-transformer-toml',
     options: {
       defaultType: 'ION'
     }
@@ -179,7 +179,7 @@ example:
 
 plugins: [
   {
-    resolve: 'gatsby-transformer-toml',
+    resolve: '@arnau/gatsby-transformer-toml',
     options: {
       defaultType: 'ION',
       extensions: ['toml', 'ion']
