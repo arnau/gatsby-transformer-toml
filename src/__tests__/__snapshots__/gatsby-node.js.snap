@@ -1,0 +1,126 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Process TOML nodes correctly Correctly creates nodes from TOML test file 1`] = `
+Array [
+  Array [
+    Object {
+      "children": Array [],
+      "date": 2019-07-20T00:00:00.000Z,
+      "editors": Array [
+        Object {
+          "name": "Alice",
+          "url": "~alicewonder",
+        },
+        Object {
+          "name": "Bob",
+          "url": "~bobsponge",
+        },
+      ],
+      "id": "uuid-from-gatsby",
+      "internal": Object {
+        "content": "
+    title = \\"a title\\"
+    date = 2019-07-20
+    notes = ['A', 'C', 'C', 'E', 'B']
+
+    [[editors]]
+    name = \\"Alice\\"
+    url = \\"~alicewonder\\"
+
+    [[editors]]
+    name = \\"Bob\\"
+    url = \\"~bobsponge\\"
+    ",
+        "contentDigest": "contentDigest",
+        "description": "A Toml based node of type TOML",
+        "mediaType": "application/toml",
+        "type": "TOML",
+      },
+      "notes": Array [
+        "A",
+        "C",
+        "C",
+        "E",
+        "B",
+      ],
+      "parent": "whatever",
+      "title": "a title",
+    },
+  ],
+]
+`;
+
+exports[`Process TOML nodes correctly Correctly creates nodes from TOML test file 2`] = `
+Array [
+  Array [
+    Object {
+      "child": Object {
+        "children": Array [],
+        "date": 2019-07-20T00:00:00.000Z,
+        "editors": Array [
+          Object {
+            "name": "Alice",
+            "url": "~alicewonder",
+          },
+          Object {
+            "name": "Bob",
+            "url": "~bobsponge",
+          },
+        ],
+        "id": "uuid-from-gatsby",
+        "internal": Object {
+          "content": "
+    title = \\"a title\\"
+    date = 2019-07-20
+    notes = ['A', 'C', 'C', 'E', 'B']
+
+    [[editors]]
+    name = \\"Alice\\"
+    url = \\"~alicewonder\\"
+
+    [[editors]]
+    name = \\"Bob\\"
+    url = \\"~bobsponge\\"
+    ",
+          "contentDigest": "contentDigest",
+          "description": "A Toml based node of type TOML",
+          "mediaType": "application/toml",
+          "type": "TOML",
+        },
+        "notes": Array [
+          "A",
+          "C",
+          "C",
+          "E",
+          "B",
+        ],
+        "parent": "whatever",
+        "title": "a title",
+      },
+      "parent": Object {
+        "children": Array [],
+        "content": "
+    title = \\"a title\\"
+    date = 2019-07-20
+    notes = ['A', 'C', 'C', 'E', 'B']
+
+    [[editors]]
+    name = \\"Alice\\"
+    url = \\"~alicewonder\\"
+
+    [[editors]]
+    name = \\"Bob\\"
+    url = \\"~bobsponge\\"
+    ",
+        "extension": "toml",
+        "id": "whatever",
+        "internal": Object {
+          "contentDigest": "whatever",
+        },
+        "name": "test",
+        "parent": null,
+      },
+    },
+  ],
+]
+`;
