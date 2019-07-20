@@ -1,5 +1,5 @@
 {
-  "name": "@arnau/gatsby-transform-toml",
+  "name": "@arnau/gatsby-transformer-toml",
   "version": "1.0.0",
   "description": "Gatsby transformer plugin for toml",
   "main": "index.js",
