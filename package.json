@@ -18,9 +18,9 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/arnau/gatsby-tranformer-toml"
+    "url": "https://github.com/arnau/gatsby-transformer-toml"
   },
-  "homepage": "https://github.com/arnau/gatsby-tranformer-toml",
+  "homepage": "https://github.com/arnau/gatsby-transformer-toml",
   "peerDependencies": {
     "gatsby": "^2.0.15"
   },
